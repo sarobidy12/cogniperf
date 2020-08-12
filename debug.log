@@ -1,0 +1,5 @@
+[1215/124048.426:ERROR:settings.cc(320)] Settings magic is not 1129342067
+[0516/001419.832:ERROR:process_reader_win.cc(123)] NtOpenThread: {Accès refusé} Un processus a demandé l’accès a un objet, mais il ne bénéficie pas des autorisations nécessaires. (0xc0000022)
+[0516/001419.867:ERROR:exception_snapshot_win.cc(98)] thread ID 4292 not found in process
+[0531/014420.910:ERROR:process_reader_win.cc(123)] NtOpenThread: {Accès refusé} Un processus a demandé l’accès a un objet, mais il ne bénéficie pas des autorisations nécessaires. (0xc0000022)
+[0531/014420.970:ERROR:exception_snapshot_win.cc(98)] thread ID 13608 not found in process

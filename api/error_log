@@ -1,0 +1,64 @@
+[16-May-2020 20:18:55 UTC] PHP Fatal error:  Cannot use try without catch or finally in /home/cogniperf/public_html/api/send_mail.php on line 14
+[16-May-2020 20:19:02 UTC] PHP Fatal error:  Cannot use try without catch or finally in /home/cogniperf/public_html/api/send_mail.php on line 14
+[16-May-2020 20:19:16 UTC] PHP Fatal error:  Cannot use try without catch or finally in /home/cogniperf/public_html/api/send_mail.php on line 14
+[16-May-2020 20:19:19 UTC] PHP Fatal error:  Cannot use try without catch or finally in /home/cogniperf/public_html/api/send_mail.php on line 14
+[16-May-2020 20:25:00 UTC] PHP Parse error:  syntax error, unexpected '...' (T_ELLIPSIS) in /home/cogniperf/public_html/api/send_mail.php on line 35
+[16-May-2020 20:28:56 UTC] PHP Fatal error:  Cannot use try without catch or finally in /home/cogniperf/public_html/api/send_mail.php on line 14
+[16-May-2020 20:29:16 UTC] PHP Fatal error:  Cannot use try without catch or finally in /home/cogniperf/public_html/api/send_mail.php on line 14
+[16-May-2020 20:29:18 UTC] PHP Fatal error:  Cannot use try without catch or finally in /home/cogniperf/public_html/api/send_mail.php on line 14
+[16-May-2020 20:29:28 UTC] PHP Fatal error:  Cannot use try without catch or finally in /home/cogniperf/public_html/api/send_mail.php on line 14
+[16-May-2020 20:29:59 UTC] PHP Fatal error:  Cannot use try without catch or finally in /home/cogniperf/public_html/api/send_mail.php on line 14
+[16-May-2020 20:30:01 UTC] PHP Fatal error:  Cannot use try without catch or finally in /home/cogniperf/public_html/api/send_mail.php on line 14
+[17-May-2020 22:11:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function execute() in /home/cogniperf/public_html/api/confirmation_mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/cogniperf/public_html/api/confirmation_mail.php on line 19
+[17-May-2020 22:14:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function execute() in /home/cogniperf/public_html/api/confirmation_mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/cogniperf/public_html/api/confirmation_mail.php on line 19
+[17-May-2020 22:15:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function execute() in /home/cogniperf/public_html/api/confirmation_mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/cogniperf/public_html/api/confirmation_mail.php on line 19
+[17-May-2020 22:17:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function execute() in /home/cogniperf/public_html/api/confirmation_mail.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/cogniperf/public_html/api/confirmation_mail.php on line 10
+[17-May-2020 22:17:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function execute() in /home/cogniperf/public_html/api/confirmation_mail.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/cogniperf/public_html/api/confirmation_mail.php on line 10
+[18-May-2020 21:18:35 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type PDOStatement as array in /home/cogniperf/public_html/api/comfirm_user.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/cogniperf/public_html/api/comfirm_user.php on line 19
+[18-May-2020 21:19:37 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type PDOStatement as array in /home/cogniperf/public_html/api/comfirm_user.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/cogniperf/public_html/api/comfirm_user.php on line 19
+[18-May-2020 21:20:22 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type PDOStatement as array in /home/cogniperf/public_html/api/comfirm_user.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/cogniperf/public_html/api/comfirm_user.php on line 19
+[19-May-2020 12:05:30 UTC] PHP Warning:  json_encode() expects parameter 2 to be integer, string given in /home/cogniperf/public_html/api/getCategorie.php on line 21
+[19-May-2020 13:09:10 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'where clause' in /home/cogniperf/public_html/api/chart_dactylo.php:29
+Stack trace:
+#0 /home/cogniperf/public_html/api/chart_dactylo.php(29): PDO->query('SELECT COUNT(*)...')
+#1 {main}
+  thrown in /home/cogniperf/public_html/api/chart_dactylo.php on line 29
+[19-May-2020 13:09:57 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'where clause' in /home/cogniperf/public_html/api/chart_dactylo.php:30
+Stack trace:
+#0 /home/cogniperf/public_html/api/chart_dactylo.php(30): PDO->query('SELECT COUNT(*)...')
+#1 {main}
+  thrown in /home/cogniperf/public_html/api/chart_dactylo.php on line 30
+[19-May-2020 13:11:30 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'where clause' in /home/cogniperf/public_html/api/chart_dactylo.php:30
+Stack trace:
+#0 /home/cogniperf/public_html/api/chart_dactylo.php(30): PDO->query('SELECT COUNT(*)...')
+#1 {main}
+  thrown in /home/cogniperf/public_html/api/chart_dactylo.php on line 30
+[19-May-2020 13:26:15 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') + 0  AND () +0  AND categorie=4' at line 1 in /home/cogniperf/public_html/api/chart_dactylo.php:24
+Stack trace:
+#0 /home/cogniperf/public_html/api/chart_dactylo.php(24): PDO->query('SELECT COUNT(*)...')
+#1 {main}
+  thrown in /home/cogniperf/public_html/api/chart_dactylo.php on line 24
